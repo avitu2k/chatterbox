@@ -21,7 +21,7 @@ const signup = async(user)=>{
             name : newUser.username,
             blocked : [],
             rooms : [],          
-        }
+        } 
         const resp = await axios.post('http://localhost:5000/users',userToAddToChatServer, headers);
         const userToUpdate = {username : newUser.username , password: newUser.hashedPassword, userId: resp.data._id};
         await updateUser(newUser._id, userToUpdate);
