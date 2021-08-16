@@ -1,0 +1,17 @@
+#root {
+    height: 100%;
+  }
+  .App {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+  }
+  .right {
+    justify-content: flex-end !important;
+  }
+  .left {
+    justify-content: flex-start !important;
+  }
+  .username{
+    color : #00FA9A
+  }
