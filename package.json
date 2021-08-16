@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "cd server && cd chatServer && nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "cd client && cd chatterbox && cd src && npm start ",
     "authServer": "cd server && cd authServer && nodemon authServer.js",
